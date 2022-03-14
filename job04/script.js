@@ -14,4 +14,4 @@ function bisextile(annee){
     else
         return false
 }
-console.log(bisextile(2000));
+console.log(bisextile(2022));
