@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="script.js"></script>
-    <title>job03</title>
+    <title>job06</title>
 </head>
 
 <body>
-    <button id="button"></button>
-    <p id="compteur">0</p>
+
 </body>
 
 </html>
