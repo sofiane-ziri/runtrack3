@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 4096px;
+}
+
+footer {
+  bottom: 0;
+  height: 5vh;
+  background-color: rgb(163, 163, 163);
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+}
+
+.rouge {
+  background-color: #03045E;
+}
+
+.bleu {
+  background-color: #023e8a;
+}
+
+.orange {
+  background-color: #0077b6;
+}
+
+.vert {
+  background-color: #0096c7;
+}
+
+.jaune {
+  background-color: #00b4d8;
+}

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <button id="button"></button>
+    <button id="button">+1</button>
     <p id="compteur">0</p>
 </body>
 
