@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>job02</title>
-
+    <script type="text/javascript" src="script.js"></script>
+    <title>Jour 02</title>
 </head>
 
 <body>
-    <article id="citation">
-        "La vie a beaucoup plus d’imagination que nous”.
+    <button id="button">Click</button>
+    <article id="article">
+        “L'important n'est pas la chute, mais l'atterrissage.”
     </article>
-    <button id="button">click</button>
-    <script src="script.js"></script>
 </body>
 
 </html>
