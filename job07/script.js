@@ -1,24 +1,24 @@
 
 function jourTravaille(date) {
-    let jourFeries = ['2022-01-01','2022-04-13','2022-05-01','2022-05-08','2022-05-21','2022-06-01','2022-07-14','2022-09-15',
+    var jourFeries = ['2022-01-01','2022-04-13','2022-05-01','2022-05-08','2022-05-21','2022-06-01','2022-07-14','2022-09-15',
         '2022-11-01','2022-11-11','2022-12-25']; 
-    let dateType = new Date(date); 
+    var dateType = new Date(date); 
     console.log("DATE = " + date); 
 
     
-    let jour = new Intl.DateTimeFormat('fr', { weekday: 'long' }).format(dateType); 
+    var jour = new Intl.DateTimeFormat('fr', { weekday: 'long' }).format(dateType); 
     console.log("JOUR DE LA SEMAINE = " + jour);
 
    
-    let numeroday = new Intl.DateTimeFormat('fr', { day: 'numeric' }).format(dateType); 
+    var numeroday = new Intl.DateTimeFormat('fr', { day: 'numeric' }).format(dateType); 
     console.log("Numero du jour dans le mois = " + numeroday);
 
    
-    let mois = new Intl.DateTimeFormat('fr', { month: 'long' }).format(dateType); 
+    var mois = new Intl.DateTimeFormat('fr', { month: 'long' }).format(dateType); 
     console.log("Le mois = " + mois);
 
   
-    let annee = new Intl.DateTimeFormat('fr', { year: 'numeric' }).format(dateType); 
+    var annee = new Intl.DateTimeFormat('fr', { year: 'numeric' }).format(dateType); 
     console.log("annee = " + annee);
 
 
